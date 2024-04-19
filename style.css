@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.flogo{
+    width: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+}
+
+.info a:hover{
+    color: #FF204E;
+}
+
+.top{
+    background-color: #35374B;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+ul li ul li{
+    width: 100%;
+    
+    justify-content: start;
+ 
+    
+}
+
+ul li ul.dropdown{
+    width: 200px;
+    background: #35374B;
+    position: absolute;
+    display: none;
+}
+
+
+ul li ul:hover{
+   
+    width: 200px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #222831;
+    border-radius: 20px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 600px;
+}
+
+.first{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.aboutuni{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#E2E8f0 ;
+}
+
+.aboutuni h2{
+    text-align: center;
+    font-size: 40px;
+    color: #222831;
+}
+
+.aboutuni .all{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+   
+}
+
+.all .vision{
+    width: 50%;
+}
+
+.all i{
+    color:#222831;
+    font-size: 30px;
+}
+
+.all p{
+    color: #222831;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.all .message{
+    width: 50%;
+}
+
+.acoll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colleges{
+    background-image: url(./images/lback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box{
+    height: 200px;
+    flex-basis: 200px;
+    border-radius: 8px;
+    display: flex;
+
+    margin: 10px;
+
+}
+
+.box h3{
+    color: black;
+    margin-right: 5px;
+    font-size: 30px;
+    display: none;
+}
+
+.box:hover h3{
+    display: block;
+    color: black;
+}
+
+.doctor{
+    background-image: url(./images/doctor.webp);
+    background-repeat: no-repeat;
+}
+
+.dentist{
+    background-image: url(./images/dentist.jpg);
+    background-repeat: no-repeat;
+}
+
+.vet{
+    background-image: url(./images/vet.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.pharma{
+    background-image: url(./images/pharma.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;  
+}
+
+.nature{
+    background-image: url(./images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+}
+
+.ai{
+    background-image: url(./images/AI.webp);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.infor{
+    background-image: url(./images/info.jpeg);
+    background-repeat: no-repeat;
+    background-size: 380px;
+}
+
+.edu{
+    background-image: url(./images/574.webp);
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+.science{
+    background-image: url(./images/science.jpeg);
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+.colleges h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.services{
+    background-color: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.why:hover, .system:hover, .gate:hover, .apply:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.why{
+    
+    display: block;
+    text-align: center;
+    margin: 10px;
+    transition: 1s;
+}
+
+.system{
+    
+    display: block;
+    text-align: center;
+    margin: 10px;
+    transition: 1s;
+}
+
+.gate{
+    
+    display: block;
+    text-align: center;
+    margin: 10px;
+    transition: 1s;
+}
+
+.apply{
+    
+    display: block;
+    text-align: center;
+    margin: 10px;
+    transition: 1s;
+}
+
+.services a{
+    text-decoration: none;
+    color: black;
+}
+
+.statics{
+    background-color: #35374B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.counter{
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter img{
+    width: 40%;
+    margin: 10px;
+}
+
+.counter h5, p{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#contact{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
+    background-color:bisque;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button{
+    margin: 5px;
+    padding: 8px;
+    background-color:#35374B ;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #35374B;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn{
+    width: 50%;
+    background-color: #35374B;
+    border: none;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    width: 300px;
+    height: 280px;
+    padding: 10px;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.add p a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.media a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #35374B;
+}
+
+.flogo{
+    width: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+}
+
+.info a:hover{
+    color: #FF204E;
+}
+
+.allimg{
+    width:100% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 86.3vh;
+    background-color: #E2E8f0;
+}
+
+.whydel{
+    width: 50%;
+    font-size: 20px;
+}
+
+.imgdel{
+    width: 35%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -60px;
+}
